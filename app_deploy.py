@@ -52,7 +52,7 @@ if item_select:
         fig = create_map(df_temp,coordinates,zoom_val,val_1,val_99,token)
         selected_points = plotly_events(fig, click_event=True,select_event=True,override_width='95%')
 
-        my_expander_dist  = st.beta_expander(label='See Data Distribution: ')
+        my_expander_dist  = st.expander(label='See Data Distribution: ')
 
         with my_expander_dist:
             point_vis = 'suspectedoutliers'  
@@ -73,10 +73,10 @@ if item_select:
                 with my_expander_dist:
                     st.plotly_chart(fig4,use_container_width=True)
                     
-                my_expander_table  = st.beta_expander(label='See Table: ')
+                my_expander_table  = st.expander(label='See Table: ')
             
                 with my_expander_table:
-                    col_temp1,col_temp2,col_temp3,col_temp4 = st.beta_columns((1,1,1,1))
+                    col_temp1,col_temp2,col_temp3,col_temp4 = st.columns((1,1,1,1))
             
                     vis_button = col_temp1.selectbox('Sort by:',['Cost','Distance'],key='2')
                     if vis_button=='Cost':
@@ -86,17 +86,17 @@ if item_select:
                     table_md = make_table(df,coordinates,sort_val)
                 
                     if len(table_md)<500:
-                        col1,col2, col3 = st.beta_columns((1,3,2))
+                        col1,col2, col3 = st.columns((1,3,2))
                         col2.markdown(table_md)
-                        col_space,col_space2 = st.beta_columns((1,1))
+                        col_space,col_space2 = st.columns((1,1))
                         col_space.write("")
                     
                     else:
                         st.markdown(table_md)
                   
-        col_space,col_space2 = st.beta_columns((1,1))
+        col_space,col_space2 = st.columns((1,1))
         col_space.write("")
-        col1_a, col3_a = st.beta_columns((2,3))
+        col1_a, col3_a = st.columns((2,3))
         if len(cpt_pick)>1:
             cpt_text = [str(int(val)) for val in cpt_pick]
             col1_a.write('CPT code: ' + ", ".join(cpt_text))
