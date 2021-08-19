@@ -20,6 +20,8 @@ st.title('Sir Charge A Lot')
 
 st.header('Find and compare hospital costs in California')
 
+st.text('To learn more about this project, check out my [github repo](https://github.com/ypshiga/SirChargeApp)')
+
 address = st.text_input("Enter a location:  ", "San Francisco, CA")
 
 new_row = {'Item Name':'', 'lat':0, 'lon':0, 'Average Charge':0}
