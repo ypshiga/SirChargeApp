@@ -20,7 +20,7 @@ st.title('Sir Charge A Lot')
 
 st.header('Find and compare hospital costs in California')
 
-st.write("To learn more about this project, check out my [github repo](https://github.com/ypshiga/SirChargeApp)")
+st.write("To learn more about this project, check out my [github repo.](https://github.com/ypshiga/SirChargeApp)")
 
 address = st.text_input("Enter a location:  ", "San Francisco, CA")
 
