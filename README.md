@@ -19,12 +19,11 @@ https://user-images.githubusercontent.com/44503923/130150731-016d706d-3018-4280-
 
 
 
-https://user-images.githubusercontent.com/44503923/130150749-c3910dfe-409b-4599-a318-5d6cb5f433ba.mp4
-
-
-
 https://user-images.githubusercontent.com/44503923/130150761-4431ec4d-4cc6-43c2-b5f7-d77109d891cb.mp4
 
+
+
+https://user-images.githubusercontent.com/44503923/130150749-c3910dfe-409b-4599-a318-5d6cb5f433ba.mp4
 
 
 This is a web app developed for the [TDI Data Science Fellowship](https://www.thedataincubator.com/programs/data-science-fellowship/) .
