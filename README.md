@@ -8,7 +8,7 @@ The app is deployed via [Heroku](https://www.heroku.com/) using [Streamlit](http
 
 It uses data from CA hospital "Chargemaster" for 2020 https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94
 
-The costs for the top ~25 services per hospital for ~300 hospitals are collected by the State of California and hosted at the link above. For this project I processes, cleaned and standardized the data and loaded it into a [Pandas](https://pandas.pydata.org/) DataFrame. I then used Plotly + Streamlit to make interactive visuals to help people see the costs at hsopitals near them and help them save money.
+The costs for the top ~25 services per hospital for ~300 hospitals are collected by the State of California and hosted at the link above. For this project I processes, cleaned and standardized the data and loaded it into a [Pandas](https://pandas.pydata.org/) DataFrame. I then used Plotly + Streamlit to make interactive visuals to help people discover and compare the costs at hospitals near them and help them save money.
 
 Check out a few demo clips:
 
