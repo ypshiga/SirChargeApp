@@ -1,13 +1,13 @@
 # SirChargeApp
 <h2>Basic Info </h2>
-Sir Charge A Lot is a web app to help people find and compare hospital costs in California. Hospital pricing information is usually pretty tough to find for any one individual hospital - it is even harder to compare costs across hospitals. For California, this data is collected by the State [hosted publicly](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94) but the data is not accessible to the average person. That's why I created Sir Charge A Lot - a web app to make healthcare pricing data accessible.The app is deployed via <a href="https://www.heroku.com/">Heroku</a> using [Streamlit](https://streamlit.io/) with interactive plots made using <a href="https://plotly.com/">Plotly</a>.
+Sir Charge A Lot is a web app to help people find and compare hospital costs in California. Hospital pricing information is usually pretty tough to find for any one individual hospital - it is even harder to compare costs across hospitals. For California, this data is collected by the State <a href="https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94">hosted publicly</a> but the data is not accessible to the average person. That's why I created Sir Charge A Lot - a web app to make healthcare pricing data accessible. The app is deployed via <a href="https://www.heroku.com/">Heroku</a> using <a href="https://streamlit.io/">Streamlit</a> with interactive plots made using <a href="https://plotly.com/">Plotly</a>.
 
 
 <h2>App link here! </h2>
 Find the app here: https://sirchargealot.herokuapp.com/
 
 <h2>Data </h2>
-The [data](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94) is from CA hospital "Chargemasters" for 2020.
+The <a href="https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94">data</a> is from CA hospital "Chargemasters" for 2020.
 
 <h2>More info </h2>
 The costs for the top ~25 services per hospital for ~300 hospitals are collected by the State of California and hosted at the link above. For this project I processes, cleaned and standardized the data and loaded it into a [Pandas](https://pandas.pydata.org) DataFrame. I then used [Plotly](https://plotly.com) + [Streamlit](https://streamlit.io) to make interactive visuals to help people discover and compare the costs at hospitals near them. I also used this [Plotly Events Component](https://github.com/null-jones/streamlit-plotly-events) to use points selected on the map to create additional plots/tables.<br>
