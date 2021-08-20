@@ -1,6 +1,7 @@
 # SirChargeApp
 <h2>Basic Info </h2>
-Sir Charge A Lot is a web app to help people find and compare hospital costs in California. Hospital pricing information is usually pretty tough to find for any one individual hospital - it is even harder to compare costs across hospitals. For California, this data is collected by the State [hosted publicly](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94) but the data is not accessible to the average person. That's why I created Sir Charge A Lot - a web app to make healthcare pricing data accessible.The app is deployed via [Heroku](https://www.heroku.com/) using [Streamlit](https://streamlit.io/) with interactive plots made using [Plotly](https://plotly.com/).
+Sir Charge A Lot is a web app to help people find and compare hospital costs in California. Hospital pricing information is usually pretty tough to find for any one individual hospital - it is even harder to compare costs across hospitals. For California, this data is collected by the State [hosted publicly](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94) but the data is not accessible to the average person. That's why I created Sir Charge A Lot - a web app to make healthcare pricing data accessible.The app is deployed via <a href="https://www.heroku.com/">Heroku</a> using [Streamlit](https://streamlit.io/) with interactive plots made using <a href="https://plotly.com/">Plotly</a>.
+
 
 <h2>App link here! </h2>
 Find the app here: https://sirchargealot.herokuapp.com/
