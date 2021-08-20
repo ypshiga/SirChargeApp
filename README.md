@@ -6,7 +6,7 @@ Sir Charge A Lot is a web app to help people find and compare hospital costs in 
 Find the app here: https://sirchargealot.herokuapp.com/
 
 <h2>Data </h2>
-The data is from CA hospital "Chargemasters" for 2020 [https://data.chhs.ca.gov](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94).
+The [data](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94) is from CA hospital "Chargemasters" for 2020.
 
 <h2>More info </h2>
 The costs for the top ~25 services per hospital for ~300 hospitals are collected by the State of California and hosted at the link above. For this project I processes, cleaned and standardized the data and loaded it into a [Pandas](https://pandas.pydata.org/) DataFrame. I then used [Plotly](https://plotly.com/) + [Streamlit](https://streamlit.io/) to make interactive visuals to help people discover and compare the costs at hospitals near them. I also used this [Plotly Events Component](https://github.com/null-jones/streamlit-plotly-events) to use points selected on the map to create additional plots/tables.<br>
