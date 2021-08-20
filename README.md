@@ -1,14 +1,15 @@
 # SirChargeApp
 
-Sir Charge A Lot is a web app to help people find and compare hospital costs in California. Hospital pricing information is usually pretty tough to find - that's why I created Sir Charge A Lot - a web app to make healthcare pricing data accessible.
+Sir Charge A Lot is a web app to help people find and compare hospital costs in California. Hospital pricing information is usually pretty tough to find for any one individual hospital - it is even harder to compare costs across hospitals. For California, this data is collected by the State [hosted publicly](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94) but the data is not accessible to the average person. That's why I created Sir Charge A Lot - a web app to make healthcare pricing data accessible.
 
 Find the app here: https://sirchargealot.herokuapp.com/
 
-The app is deployed via [Heroku](https://www.heroku.com/) using [Streamlit](https://streamlit.io/) with interactive plots made using [Plotly](https://plotly.com/) .
+The app is deployed via [Heroku](https://www.heroku.com/) using [Streamlit](https://streamlit.io/) with interactive plots made using [Plotly](https://plotly.com/).
 
-It uses data from CA hospital "Chargemaster" for 2020 https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94
+The data is from CA hospital "Chargemasters" for 2020 [https://data.chhs.ca.gov](https://data.chhs.ca.gov/dataset/chargemasters/resource/95e415ee-5c11-40b9-b693-ff9af7985a94).
 
-The costs for the top ~25 services per hospital for ~300 hospitals are collected by the State of California and hosted at the link above. For this project I processes, cleaned and standardized the data and loaded it into a [Pandas](https://pandas.pydata.org/) DataFrame. I then used Plotly + Streamlit to make interactive visuals to help people discover and compare the costs at hospitals near them and help them save money.
+The costs for the top ~25 services per hospital for ~300 hospitals are collected by the State of California and hosted at the link above. For this project I processes, cleaned and standardized the data and loaded it into a [Pandas](https://pandas.pydata.org/) DataFrame. I then used [Plotly](https://plotly.com/) + [Streamlit](https://streamlit.io/) to make interactive visuals to help people discover and compare the costs at hospitals near them. I also used this [Plotly Events Component](https://github.com/null-jones/streamlit-plotly-events) to use points selected on the map to create additional plots/tables. This web app was developed for the [TDI Data Science Fellowship](https://www.thedataincubator.com/programs/data-science-fellowship/).
+
 
 Check out a few demo clips:
 
@@ -28,4 +29,3 @@ https://user-images.githubusercontent.com/44503923/130150761-4431ec4d-4cc6-43c2-
 https://user-images.githubusercontent.com/44503923/130150749-c3910dfe-409b-4599-a318-5d6cb5f433ba.mp4
 
 
-This is a web app developed for the [TDI Data Science Fellowship](https://www.thedataincubator.com/programs/data-science-fellowship/) .
